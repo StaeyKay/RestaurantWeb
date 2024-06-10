@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staey's eatery</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- The navigation bar goes here -->
+    <nav>
+        <img id="logo" src="./assets/logos/eateryLogo.jpeg" alt="business logo">
+        <div class="nav-links">
+            <a href="">Home</a>
+            <a href="">Menu</a>
+            <a href="">Reservation</a>
+            <a href="">Gallery</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Contact</a>
+        </div>
+    </nav>
+    <!-- Hero section goes here -->
+    <section id="hero">
+        <div id="hero-overlay">
+            <header>
+                <span id="subtext1" class="courgette-regular">Welcome to</span>
+                <span id="subtext2" class="poppins-bold">Staey's eatery</span>
+            </header>
+            <button class="menu-button">LOOK MENU</button>
+        </div>
+    </section>
+
+    <!-- About section goes here -->
+    <section id="about">
+        <div id="about-text">
+            <div class="sub-header">
+                <span class="courgette-regular" id="italian-restaurant">Italian Restaurant</span>
+                <span class="poppins-bold" id="welcome">WELCOME</span>
+            </div>
+            <p id="sub-headertext">Donec quis lorem nulla. Nunc eu odio mi. Morbi nec lobortis est.
+                Sed fringilla, nunc sed imperdiet lacinia, nisl ante egestas mi,
+                ac facilisis ligula sem id neque.
+            </p>
+            <div id="about-link">
+                <a href="" class="our-story">
+                    OUR STORY
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="image-style">
+            <img id="about-image" src="./assets/images/aboutImg.webp" alt="An image of a ready meal">
+        </div>
+    </section>
+
+    <!-- Discover image goes here -->
+    <section id="discover">
+        <div id="discover-overlay">
+            <header>
+                <div class="sub-header">
+                    <span class="courgette-regular">Discover</span>
+                    <span class="poppins-bold">STAEY'S EATERY</span>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <!-- images go here -->
+    <section class="flex-container">
+        <div>
+            <img src="./assets/images/romanticRestaurant.jpg" alt="Romantic restaurant"><br><br>
+            <div>
+                <span class="sub-text">ROMANTIC RESTAURANT</span>
+                <p>Phasellus lorem enim, luctus ut velit eget,
+                    con-vallis egestas eros.
+                </p>
+            </div>
+            <div>
+                <a href="" class="our-story">
+                    LEARN MORE
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/images/deliciousDinner.jpeg" alt="delicious food"><br><br>
+            <div>
+                <span class="sub-text">DELICIOUS FOOD</span>
+                <p>Phasellus lorem enim, luctus ut velit eget,
+                    con-vallis egestas eros.
+                </p>
+            </div>
+            <div>
+                <a href="" class="our-story">
+                    LEARN MORE
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <img src="./assets/images/redWine.webp" alt="Red wine"><br><br>
+            <div>
+                <span class="sub-text">RED WINES YOU LOVE</span>
+                <p>Phasellus lorem enim, luctus ut velit eget,
+                    con-vallis egestas eros.
+                </p>
+            </div>
+            <div>
+                <a href="" class="our-story">
+                    LEARN MORE
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu goes here -->
+    <section id="menu">
+        <div class="sub-header">
+            <span id="subtext1" class="courgette-regular">Discover</span>
+            <span id="subtext2" class="poppins-bold">OUR MENU</span>
+        </div>
+        <div class="grid-container ourmenu-textparent">
+            <div class="group1">
+                <img src="./assets/images/lunch.jpeg" alt="Lunch">
+                <div class="ourmenu-text">
+                    <a href="">LUNCH</a>
+                </div>
+            </div>
+            <div class="group1">
+                <img class="group1" src="./assets/images/dinner1.avif" alt="dinner">
+                <div class="ourmenu-text">
+                    <a href="">DINNER</a>
+                </div>
+            </div>
+            <div class="group3">
+                <img src="./assets/images/drinks.webp" alt="drinks">
+                <div class="ourmenu-text">
+                    <a href="">DRINK</a>
+                </div>
+            </div>
+            <div class="group3">
+                <img src="./assets/images/starter.jpeg" alt="starter">
+                <div class="ourmenu-text">
+                    <a href="">STARTERS</a>
+                </div>
+            </div>
+            <div class="group2">
+                <img class="group2" src="./assets/images/happyHour.webp" alt="happy hour">
+                <div class="ourmenu-text">
+                    <a href="">HAPPY HOUR</a>
+                </div>
+            </div>
+            <div class="group3">
+                <img src="./assets/images/dessert.jpeg" alt="dessert">
+                <div class="ourmenu-text">
+                    <a href="">DESSERT</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation goes here -->
+    <section id="reservation">
+        <div id="section1">
+            <div class="sub-header">
+                <span class="courgette-regular">Reservation</span>
+                <span class="poppins-bold">BOOK TABLE</span>
+            </div>
+            <form action="">
+                <div id="input-grid">
+                    <span class="form-item">
+                        <label for="date">Date:</label>
+                        <input id="date" type="date">
+                    </span>
+                    <span class="form-item">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text">
+                    </span>
+                    <span class="form-item">
+                        <label for="time">Time:</label>
+                        <input id="time" type="time">
+                    </span>
+                    <span class="form-item">
+                        <label for="phone">Phone:</label>
+                        <input id="phone" type="number">
+                    </span>
+                    <span class="form-item">
+                        <label for="people">People:</label>
+                        <input id="people" type="number">
+                    </span>
+                    <span class="form-item">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email">
+                    </span>
+                </div><br><br>
+                <div class="centered-button">
+                    <button>BOOK TABLE</button>
+                </div>
+            </form>
+        </div>
+        <img src="./assets/images/aboutImg.webp" alt="reservation">
+    </section>
+
+    <!-- Reviews slider goes here -->
+    <section class="swiper mySwiper">
+
+        <div class="sub-header review">
+            <span class="courgette-regular">Customers Say</span>
+            <span class="poppins-bold">REVIEW</span>
+        </div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="portrait-container">
+                    <img src="./assets/images/portrait1.webp" alt="portrait image">
+                </div>
+                <div class="customer-feedback">
+                    <p>“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in
+                        pre-tium nec, fermentum viverra dui ”
+                    </p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>MARIE SIMMONS - NEW YORK</h4>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="portrait-container">
+                    <img src="./assets/images/portrait2.webp" alt="portrait image">
+                </div>
+                <div class="customer-feedback">
+                    <p>“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in
+                        pre-tium nec, fermentum viverra dui ”
+                    </p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>MARIE SIMMONS - NEW YORK</h4>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="portrait-container">
+                    <img src="./assets/images/portrait3.webp" alt="portrait image">
+                </div>
+                <div class="customer-feedback">
+                    <p>“ We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem, mattis in
+                        pre-tium nec, fermentum viverra dui ”
+                    </p>
+                    <div class="ratings">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h4>MARIE SIMMONS - NEW YORK</h4>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- Video goes here -->
+    <section id="video-sec">
+        <video id="video" autoplay loop>
+            <source src="./assets/videos/discoverVid.mp4" type="video/mp4">
+        </video>
+        <div id="video-overlay">
+            <div class="sub-header">
+                <span class="courgette-regular">Discover</span>
+                <span class="poppins-bold">OUR VIDEO</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest news goes here -->
+    <section>
+        <div class="sub-header review">
+            <span class="courgette-regular">Latest News</span>
+            <span class="poppins-bold">THE BLOG</span>
+        </div>
+        <div class="flex-container">
+            <div>
+                <img src="./assets/images/bestPlaces.jpeg" alt="Romantic restaurant"><br><br>
+                <div>
+                    <span class="sub-text">BEST PLACES FOR WINE</span>
+                    <p>Phasellus lorem enim, luctus ut velit eget, 
+                        con-vallis egestas eros.
+                    </p>
+                </div>
+                <div>
+                    <a href="" class="our-story">
+                        CONTINUE READING
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/eggsAndCheese.jpeg" alt="Romantic restaurant"><br><br>
+                <div>
+                    <span class="sub-text">EGGS AND CHEESE</span>
+                    <p>Phasellus lorem enim, luctus ut velit eget, 
+                        con-vallis egestas eros.
+                    </p>
+                </div>
+                <div>
+                    <a href="" class="our-story">
+                        CONTINUE READING
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/images/weddingParty.jpeg" alt="Red wine"><br><br>
+                <div>
+                    <span class="sub-text">STYLE THE WEDDING PARTY</span>
+                    <p>If you adorn the ligula eget tortor tempor, quis 
+                        porta tellus dictum.
+                    </p>
+                </div>
+                <div>
+                    <a href="" class="our-story">
+                        CONTINUE READING
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer goes here -->
+     <footer class="footer-container">
+        <div>
+            <h3>CONTACT US</h3>
+            <p>8th floor, 379 Hudson St, New York, NY 10018</p>
+            <p>(+1) 96 716 6879</p>
+            <p>contact@site.com</p><br>
+            <h3>OPENING TIMES</h3>
+            <p>09:30 AM – 11:00 PM</p>
+            <p>Every day</p>
+        </div>
+        <div>
+            <h3>LATEST TWITTER</h3>
+            <a href="">@colorlib</a><br><br>
+            <span>Activello is a good option. It has a slider built into that 
+                displays the featured image in the slider.
+            </span><br>
+            <a href="https://buff.ly/2zaSfAQ">https://buff.ly/2zaSfAQ</a>
+            <p>21 Dec 2017</p>
+            <a href="">@colorlib</a>
+            <p>Activello is a good option. It has a slider built into that displays
+                <span><a href="https://buff.ly/2zaSfAQ">https://buff.ly/2zaSfAQ</a></span>
+            </p>
+            <p>21 Dec 2017</p>
+        </div>
+        <div>
+            <h3>GALLERY</h3>
+            <div id="gallery-grid">
+                <a href="">
+                    <img src="./assets/images/gal1.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal2.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal3.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal4.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal5.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal6.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal7.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal8.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal9.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal10.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal11.webp" alt="">
+                </a>
+                <a href="">
+                    <img src="./assets/images/gal12.webp" alt="">
+                </a>
+            </div>
+        </div>
+     </footer>
+
+    <!-- JavaScript goes here -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
